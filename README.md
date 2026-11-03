@@ -2,8 +2,5 @@
 
 ## Setup
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+玩家加白时间，最后/最初进服时间，游玩时间，追踪器，服务端mod
+在服务端输入/Timetracker即可在根目录生成一个.txt文档来存储这些信息
