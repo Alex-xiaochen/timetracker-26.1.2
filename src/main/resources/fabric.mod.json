@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "timetracker",
+	"version": "${version}",
+	"name": "Timetracker",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Grey_Cat_awa"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/timetracker/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.gcawebsite.Timetracker"
+		],
+		"client": [
+			"top.gcawebsite.client.TimetrackerClient"
+		]
+	},
+	"mixins": [
+		"timetracker.mixins.json",
+		{
+			"config": "timetracker.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
